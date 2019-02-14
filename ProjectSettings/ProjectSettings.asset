@@ -148,7 +148,10 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.Company.ProductName
+    Android: com.oculus.UnitySample
+    Standalone: com.oculus.UnitySample
+    iOS: com.oculus.UnitySample
+    tvOS: com.oculus.UnitySample
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
@@ -285,7 +288,6 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - Oculus
-    - OpenVR
   - m_BuildTarget: iOS
     m_Enabled: 1
     m_Devices:
@@ -300,6 +302,9 @@ PlayerSettings:
     - Oculus
     - daydream
     - cardboard
+  - m_BuildTarget: tvOS
+    m_Enabled: 1
+    m_Devices: []
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
