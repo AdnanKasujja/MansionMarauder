@@ -10,7 +10,7 @@ public class FieldOfView : MonoBehaviour
 
     private bool isInFov = false;
 
-    private void OnDrawGizmos()
+    private void OnDrawGizmos() 
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, maxRadius);
@@ -29,6 +29,7 @@ public class FieldOfView : MonoBehaviour
         else
         {
             Debug.Log("I've been spotted!");
+            //transform.LookAt(player);
             Gizmos.color = Color.red;
         }
         Gizmos.DrawRay(transform.position, (player.position - transform.position).normalized * maxRadius);
@@ -39,7 +40,7 @@ public class FieldOfView : MonoBehaviour
 
     public static bool inFOV(Transform checkingObject, Transform target, float maxAngle, float maxRadius)
     {
-        Collider[] overlaps = new Collider[10];
+        Collider[] overlaps = new Collider[30];
         int count = Physics.OverlapSphereNonAlloc(checkingObject.position, maxRadius, overlaps);
 
         for (int i = 0; i < count + 1; i++)
