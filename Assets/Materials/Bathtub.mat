@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: floor_Marble
+  m_Name: Bathtub
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ShaderKeywords: _METALLICGLOSSMAP _METALLICSPECGLOSSMAP
   m_LightmapFlags: 4
@@ -28,11 +28,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6c6abda0b14d90a4885d5042f3965b2d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0377e515a641fa349875eb4cfb95c215, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 8dac8897c0a5175489577cd04d5c276f, type: 3}
+        m_Texture: {fileID: 2800000, guid: eb68510f40bcc6c488ed64d9e7cfad8c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -51,7 +51,7 @@ Material:
     - _Cutoff: 0.5
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.84
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
